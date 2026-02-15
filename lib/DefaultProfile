@@ -1,0 +1,25 @@
+// lib/defaultProfile.js
+export default {
+  profile: {
+    username: 'jane_doe',
+    displayName: 'Jane Doe',
+    avatar: { type: 'url', value: 'https://via.placeholder.com/120' },
+    bio: 'Product designer. I love building delightful UI and exploring new ideas.',
+    links: [
+      { label: 'Website', url: 'https://janedoe.com' },
+      { label: 'Instagram', url: 'https://instagram.com/janedoe' }
+    ],
+    highlights: [
+      {
+        id: 'h1',
+        title: 'Project Atlas',
+        image: { type: 'url', value: 'https://via.placeholder.com/400x200' },
+        caption: 'A design system for a global product'
+      }
+    ],
+    theme: {
+      mode: 'light',
+      color: '#4a90e2'
+    }
+  }
+};
