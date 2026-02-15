@@ -6,7 +6,7 @@ Goosify Profile Editor is a web application that allows users to customize and m
 ## Tech Stack
 - JavaScript (ES6+)
 - React
-- [Optional: Add other libraries if used, e.g., Redux, TailwindCSS]
+- basic CSS
 
 ## Installation / Running Locally
 1. Clone the repository or downlload to local drive as zip file
